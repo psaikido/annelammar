@@ -1,17 +1,18 @@
 <!doctype html>
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-<div class="container">
-  {% include header.html %}
-  <div class="posts-wrapper">
-    <h4>{{ page.title }}</h4>
-    {{ content }}
-  </div>
-</div>
+        <div class="container">
+            {% include header.html %}
+            <div class="posts-wrapper">
+                <h4>{{ page.title }}</h4>
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
 
-</body>
+    </body>
 </html>
