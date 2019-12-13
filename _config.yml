@@ -1,0 +1,20 @@
+# Site Build Settings
+
+# jekyll-paginate configuration
+#paginate: 5
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: none
+plugins: [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title: "Anne Lammar - MSTAT, RCST - Tel: 07984 036257"
+description: ""
+author: "Hugh Carroll"
+
