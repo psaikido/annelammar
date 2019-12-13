@@ -1,3 +1,63 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+body {
+  font-family: $base-font-family;
+  background-color: $bkClr;
+  color: $textClr;
+  background-image: url(../img/purpleshell.gif);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: 50%;
+}
+body img {
+    align: middle;
+    margin: 5px auto auto auto;
+    display: block;
+    max-width: 600px;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.65;
+  font-family: $body-font-family;
+}
+
+a {
+  color: $brand-color;
+}
+
 .site-header {
     min-height: 56px;
     width: $container-width;
@@ -5,6 +65,7 @@
     background-color: $bkClr;
     box-shadow: 0 5px 6px -6px #bbb;
     z-index: 100;
+    top: 0;
 }
 .menu-list {
     line-height: $header-thickness;
@@ -12,7 +73,6 @@
 .menu-link {
     padding: 5px 10px;
 }
-
 
 @media (min-width: $container-width) {
     .dropbtn {
@@ -28,13 +88,18 @@
         display: none;
     }
     .site-title {
-        margin: 16px 100px;
+        margin: 16px 112px;
         width: $container-width;
         text-align: left;
     }
     .site-title a {
+        font-size: 20px;
         color: #444;
     }
+    .site-title p {
+        font-size: 12px;
+    }
+
     .dropbtn {
         background-color: $bkClr;
         color: black;
@@ -73,4 +138,10 @@
     .dropdown:hover .dropbtn {
         background-color: #f1f1f1;
     }
+
+    .posts-wrapper {
+        max-width: $posts-width;
+        margin: $header-thickness + 50px auto;
+    }
 }
+
