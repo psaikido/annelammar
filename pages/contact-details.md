@@ -8,6 +8,14 @@ TEL Luxembourg: +352 339132
 WEB: www.annelammar.com  
 EMAIL: anne@annelammar.com 
 
+Address:  
+33 Crossveggate  
+Milganvie  
+Glasgow  
+G62 6RA
+Scotland
+
+
 Regular clinics:
 
 Wednesday - Reading 1:30pm - evening
