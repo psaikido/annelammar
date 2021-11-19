@@ -17,4 +17,4 @@ She combines these complementary skills to help stimulate and encourage the natu
 
 Anne has a special interest and experience in working with couples, to support them during pregnancy, birth & bonding.
 
-She draws from her craniosacral work to heal prenatal, birth and postnatal trauma in babies, children and adults.
+She draws from her craniosacral work to heal prenatal, birth and postnatal trauma in babies, toddlers, children and adults.
