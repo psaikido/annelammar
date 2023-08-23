@@ -1,5 +1,5 @@
 theme = "chalk"
-baseURL = 'http://localhost:1313'
+baseURL = 'https://annelammar.com'
 languageCode = 'en-us'
 title = 'Anne Lammar - MSTAT, RCST'
 
