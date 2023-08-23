@@ -1,0 +1,15 @@
+theme = "chalk"
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'Anne Lammar - MSTAT, RCST'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params.chalk]
+blog_theme = "light"
+about_enabled = true
+theme_toggle = true
+scrollappear_enabled = true

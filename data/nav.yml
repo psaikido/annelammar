@@ -1,0 +1,28 @@
+menu:
+  - title: about
+    url: /
+
+  - title: "Regular Clinics"
+    url: /regular-clinics/
+
+  - title: "Contact Details"
+    url: /contact-details/
+
+  - title: "Alexander Technique"
+    url: /alexander/
+
+  - title: "Craniosacral Therapy"
+    url: /craniosacral/
+
+  - title: "Prenatal & Birth Therapy"
+    url: /birth/
+
+  - title: "Doula (birth helper)"
+    url: /doula/
+
+  - title: "Links"
+    url: /links/
+
+  - title: "Articles & Inspiration"
+    url: /articles/
+

@@ -1,0 +1,9 @@
+<nav class="nav">
+  <ul class="menu">
+    {{ range $key, $value := $.Site.Data.nav.menu}}
+		<li>
+			<a href="{{ .url | relURL }}" title="{{ .title }}">{{ .title }}</a>
+		</li>
+    {{ end }}
+  </ul>
+</nav>
