@@ -668,6 +668,9 @@ img {
   .grid-cell.menu ul {
     list-style: none; }
 
+.homepage-content img {
+  border: 1px solid #393636; }
+
 @media all and (max-width: 767px) {
   .grid-cell.menu {
     margin-top: 11px; }

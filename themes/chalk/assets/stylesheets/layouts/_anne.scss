@@ -8,6 +8,10 @@
 	}
 }
 
+.homepage-content img {
+	border: 1px solid $gray-darker;
+}
+
 @include breakpoint('small') {
 	.grid-cell.menu {
 		margin-top: 11px;
