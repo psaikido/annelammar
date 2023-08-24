@@ -1,7 +1,7 @@
 theme = "chalk"
 baseURL = 'https://annelammar.com'
 languageCode = 'en-us'
-title = 'Anne Lammar - MSTAT, RCST'
+title = 'Anne Lammar'
 
 [markup]
   [markup.goldmark]

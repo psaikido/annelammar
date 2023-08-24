@@ -1,5 +1,5 @@
 menu:
-  - title: about
+  - title: home
     url: /
 
   - title: "Regular Clinics"
@@ -25,4 +25,7 @@ menu:
 
   - title: "Articles & Inspiration"
     url: /articles/
+
+  - title: about
+    url: /about/
 
